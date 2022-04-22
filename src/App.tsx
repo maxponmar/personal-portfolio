@@ -1,9 +1,13 @@
+import Header from "./components/header/Header";
+import About from "./sections/About";
 import Home from "./sections/Home";
 
 const App: React.FC<{}> = () => {
   return (
-    <div>
+    <div className="bg-black">
+      <Header />
       <Home />
+      <About />
     </div>
   )
 }
