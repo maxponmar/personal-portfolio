@@ -10,6 +10,7 @@
   "dependencies": {
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
+    "react-scroll-motion": "^0.2.6",
     "typewriter-effect": "^2.18.2"
   },
   "devDependencies": {
