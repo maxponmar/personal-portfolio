@@ -2,7 +2,7 @@ import aboutImage from "../../assets/about.webp";
 import Section from "../../components/Section";
 import SocialCard from "./socialcard/SocialCard";
 import SocialIcon from "./socialicon/SocialIcon";
-import { linkedinCard, emailCard, githubCard } from "./aboutCards";
+import { linkedinCard, emailCard, githubCard } from "./socialCards";
 import { emailSocialIcon, githubSocialIcon, linkedinSocialIcon } from "./socialIcons";
 
 const About: React.FC<{}> = () => {
@@ -21,11 +21,6 @@ const About: React.FC<{}> = () => {
                     <SocialIcon socialIcon={emailSocialIcon} />
                     <SocialIcon socialIcon={githubSocialIcon} />
                 </div>
-                {/* <div className="w-full flex flex-col justify-center items-center lg:flex-row lg:w-5/6">
-                    <SocialCard socialCard={linkedinCard} />
-                    <SocialCard socialCard={emailCard} />
-                    <SocialCard socialCard={githubCard} />
-                </div> */}
             </div>
         </Section>
     )
