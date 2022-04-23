@@ -1,9 +1,9 @@
-import profileImage from "../assets/profile.webp";
+import profileImage from "../../assets/profile.webp";
 
 const Home: React.FC<{}> = () => {
     return (
         <div className="bg-[url('./assets/space.webp')] bg-cover bg-fixed mt-[32px]">
-            <div className="bg-black bg-opacity-80 flex flex-col items-center justify-center text-center h-[calc(100vh-32px)] lg:flex-row">
+            <div className="bg-black bg-opacity-60 flex flex-col items-center justify-center text-center h-[calc(100vh-32px)] lg:flex-row">
                 <img className="rounded-full w-1/2 sm:w-72 lg:w-60 mr-2" src={profileImage} />
                 <div className="text-white">
                     <h1 className="relative mt-1 px-10 text-3xl font-extrabold  group-hover:scale-[1.005] duration-100 ease-in cursor-default sm:text-4xl sm:px-3 hover:scale-[1.01]">Maximiliano Ponce Marquez</h1>
