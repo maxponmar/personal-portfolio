@@ -4,7 +4,7 @@ import Home from "./sections/Home";
 
 const App: React.FC<{}> = () => {
   return (
-    <div className="bg-black">
+    <div className="bg-black text-white">
       <Header />
       <Home />
       <About />
