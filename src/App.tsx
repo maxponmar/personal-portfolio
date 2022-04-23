@@ -1,6 +1,7 @@
 import Header from "./components/header/Header";
-import About from "./sections/About";
-import Home from "./sections/Home";
+import About from "./sections/about/About";
+import Home from "./sections/home/Home";
+import Skills from "./sections/skills/Skills";
 
 const App: React.FC<{}> = () => {
   return (
@@ -8,6 +9,7 @@ const App: React.FC<{}> = () => {
       <Header />
       <Home />
       <About />
+      <Skills />
     </div>
   )
 }
