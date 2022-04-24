@@ -1,4 +1,4 @@
-import useScroll, { SectionId } from "./ScrollHook";
+import useScroll, { SectionId } from "../../hooks/ScrollHook";
 
 const SectionLink: React.FC<{ title: string, sectionId: SectionId }> = ({ title, sectionId }) => {
     const scrollToSection = useScroll();

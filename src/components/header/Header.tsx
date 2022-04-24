@@ -1,5 +1,5 @@
 import Button from "../Button";
-import useScroll, { SectionId } from "./ScrollHook";
+import useScroll, { SectionId } from "../../hooks/ScrollHook";
 import SectionLink from "./SectionLink";
 
 const Header: React.FC<{}> = () => {
