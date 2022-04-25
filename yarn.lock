@@ -941,6 +941,11 @@ react-scroll-motion@^0.2.6:
   resolved "https://registry.yarnpkg.com/react-scroll-motion/-/react-scroll-motion-0.2.6.tgz#6aa50b889fef54cc28152a79447642ca4a94e019"
   integrity sha512-KoUgStvnolIdMkVmEa8Q+DY2hxBQtVD1mhRReOfNMCEiHVIEyg73ib/gt5ktJZhEC11eIYALWJON2/A8OZz+DQ==
 
+react-tiny-popover@^7.0.1:
+  version "7.0.1"
+  resolved "https://registry.yarnpkg.com/react-tiny-popover/-/react-tiny-popover-7.0.1.tgz#efb396cae335f00a0767ad98b9579d28744aec9e"
+  integrity sha512-uV+nTZXkCtfPFQtoKwbfX8waaU7+b8LEOoyOUjtmRxqnH3KLX1FkPm7RU+RC8eXxtOe4rC1cuhOIbQFcc71vQQ==
+
 react@^18.0.0:
   version "18.0.0"
   resolved "https://registry.yarnpkg.com/react/-/react-18.0.0.tgz#b468736d1f4a5891f38585ba8e8fb29f91c3cb96"
