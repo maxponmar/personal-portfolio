@@ -1,4 +1,4 @@
-import SocialCardModel from "./socialcard/SocialCard.model"
+import SocialCardModel from "../components/socialcard/SocialCard.model"
 import linkedinIcon from "../../assets/linkedin.svg";
 import outlookIcon from "../../assets/outlook.svg";
 import githubIcon from "../../assets/github.svg";

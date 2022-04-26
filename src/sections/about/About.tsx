@@ -1,9 +1,7 @@
 import aboutImage from "../../assets/about.webp";
 import Section from "../../components/Section";
-import SocialCard from "./socialcard/SocialCard";
-import SocialIcon from "./socialicon/SocialIcon";
-import { linkedinCard, emailCard, githubCard } from "./socialCards";
-import { emailSocialIcon, githubSocialIcon, linkedinSocialIcon } from "./socialIcons";
+import SocialIcon from "./components/socialicon/SocialIcon";
+import { emailSocialIcon, githubSocialIcon, linkedinSocialIcon } from "./data/socialIcons";
 
 const About: React.FC<{}> = () => {
     return (
