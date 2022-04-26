@@ -20,7 +20,7 @@ const App: React.FC<{}> = () => {
           </Animator>
         </ScrollPage>
         <ScrollPage page={2}>
-          <Animator animation={batch(Fade(), Move(0, -500), Sticky())}>
+          <Animator animation={batch(Fade(), Move(0, 800), Sticky())}>
             <Skills />
           </Animator>
         </ScrollPage>
