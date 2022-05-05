@@ -1,6 +1,7 @@
 import Header from "./components/header/Header";
 import About from "./sections/about/About";
 import Home from "./sections/home/Home";
+import Projects from "./sections/projects/Projects";
 import Skills from "./sections/skills/Skills";
 
 const App = () => {
@@ -10,6 +11,7 @@ const App = () => {
       <Home />
       <About />
       <Skills />
+      <Projects />
     </div>
   )
 }
