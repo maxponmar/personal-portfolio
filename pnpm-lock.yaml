@@ -8,7 +8,6 @@ specifiers:
   postcss: ^8.4.12
   react: ^18.0.0
   react-dom: ^18.0.0
-  react-scroll-motion: ^0.2.6
   react-tiny-popover: ^7.0.1
   tailwindcss: ^3.0.24
   typescript: ^4.6.3
@@ -18,7 +17,6 @@ specifiers:
 dependencies:
   react: 18.0.0
   react-dom: 18.0.0_react@18.0.0
-  react-scroll-motion: 0.2.6_zpnidt7m3osuk7shl3s4oenomq
   react-tiny-popover: 7.0.1_zpnidt7m3osuk7shl3s4oenomq
   typewriter-effect: 2.18.2_zpnidt7m3osuk7shl3s4oenomq
 
@@ -1078,16 +1076,6 @@ packages:
     resolution: {integrity: sha512-suLIhrU2IHKL5JEKR/fAwJv7bbeq4kJ+pJopf77jHwuR+HmJS/HbrPIGsTBUVfw7tXPOmYv7UJ7PCaN49e8x4A==}
     engines: {node: '>=0.10.0'}
     dev: true
-
-  /react-scroll-motion/0.2.6_zpnidt7m3osuk7shl3s4oenomq:
-    resolution: {integrity: sha512-KoUgStvnolIdMkVmEa8Q+DY2hxBQtVD1mhRReOfNMCEiHVIEyg73ib/gt5ktJZhEC11eIYALWJON2/A8OZz+DQ==}
-    peerDependencies:
-      react: ^17.0.1
-      react-dom: ^17.0.1
-    dependencies:
-      react: 18.0.0
-      react-dom: 18.0.0_react@18.0.0
-    dev: false
 
   /react-tiny-popover/7.0.1_zpnidt7m3osuk7shl3s4oenomq:
     resolution: {integrity: sha512-uV+nTZXkCtfPFQtoKwbfX8waaU7+b8LEOoyOUjtmRxqnH3KLX1FkPm7RU+RC8eXxtOe4rC1cuhOIbQFcc71vQQ==}
