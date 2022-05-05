@@ -3,7 +3,7 @@ import Section from "../../components/Section";
 import SocialIcon from "./components/socialicon/SocialIcon";
 import { emailSocialIcon, githubSocialIcon, linkedinSocialIcon } from "./data/socialIcons";
 
-const About: React.FC<{}> = () => {
+const About = () => {
     return (
         <Section title="About">
             <div className="flex flex-col justify-center items-center">

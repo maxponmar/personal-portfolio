@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Popover } from 'react-tiny-popover'
 
-const SkillIcon: React.FC<{ title: string, icon: string }> = ({ title, icon }) => {
+const SkillIcon = ({ title, icon }: { title: string, icon: string }) => {
     const [isPopoverOpen, setIsPopoverOpen] = useState(false);
     return (
         <div>

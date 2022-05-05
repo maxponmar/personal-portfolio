@@ -3,7 +3,7 @@ import SkillIcon from "./components/SkillIcon";
 import SkillSections, { Skill, SkillSection } from "./data/skillSections";
 import skillsBlob from "../../assets/skills-blob.svg";
 
-const Skills: React.FC<{}> = () => {
+const Skills = () => {
     return (
         <Section title="Skills">
             <div className="flex flex-col items-center justify-center relative">

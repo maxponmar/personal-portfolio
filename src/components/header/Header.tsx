@@ -2,7 +2,7 @@ import Button from "../Button";
 import useScroll, { SectionId } from "../../hooks/ScrollHook";
 import SectionLink from "./SectionLink";
 
-const Header: React.FC<{}> = () => {
+const Header = () => {
     const scrollToSection = useScroll();
     return (
         <header className="w-screen h-10 text-center font-bold text-white text-sm bg-slate-900 fixed top-0 z-50 flex">

@@ -3,7 +3,7 @@ import About from "./sections/about/About";
 import Home from "./sections/home/Home";
 import Skills from "./sections/skills/Skills";
 
-const App: React.FC<{}> = () => {
+const App = () => {
   return (
     <div className="bg-black text-white scroll-smooth">
       <Header />

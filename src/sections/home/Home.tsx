@@ -1,7 +1,7 @@
 import profileImage from "../../assets/profile.webp";
 import Typewriter from "typewriter-effect";
 
-const Home: React.FC<{}> = () => {
+const Home = () => {
     return (
         <div className="bg-[url('./assets/space.webp')] bg-cover bg-fixed mt-[120px] sm:mt-[32px] w-screen">
             <div className="bg-black bg-opacity-40 flex flex-col items-center justify-center text-center h-[calc(100vh-32px)] lg:flex-row">
