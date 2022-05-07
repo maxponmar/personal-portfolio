@@ -6,7 +6,7 @@ import { emailSocialIcon, githubSocialIcon, linkedinSocialIcon } from "../about/
 const Contact = () => {
   return (
     <Section title="Contact">
-      <div className="bg-purple-900 max-w-sm rounded-lg overflow-hidden shadow-lg p-5">
+      <div className="mx-5 bg-purple-900 max-w-sm rounded-lg overflow-hidden shadow-lg p-5">
         <img className="rounded-full m-auto" src={profile} alt="Maximiliano Ponce Marquez" />
         <div className="px-6 py-4">
           <h3 className="font-bold text-2xl mb-2">Maximiliano Ponce Marquez</h3>
