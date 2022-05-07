@@ -3,7 +3,7 @@ import Typewriter from "typewriter-effect";
 
 const Home = () => {
     return (
-        <div className="bg-[url('./assets/space.webp')] bg-cover bg-fixed mt-[40px] sm:mt-[32px] w-screen">
+        <div className="bg-[url('./assets/space.webp')] bg-cover bg-fixed mt-[40px] sm:mt-[32px] max-w-screen">
             <div className="bg-black bg-opacity-40 flex flex-col items-center justify-center text-center h-[calc(100vh-32px)] lg:flex-row">
                 <img className="rounded-full w-1/2 sm:w-72 lg:w-60 mr-2" src={profileImage} />
                 <div className="text-white lg:min-w-[600px]">
